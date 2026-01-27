@@ -1,3 +1,6 @@
 .env
 .venv
+
+# Gabarito e arquivos de exemplo
 Alternativo/*
+auxiliar.py
