@@ -114,11 +114,11 @@ Before running this project, ensure you have:
 ```
 04-chatbot/
 │
-├── main.py              # Main application file
-├── .env.example         # Environment variables template
+├── main.py             # Main application file
+├── .env.example        # Environment variables template
 ├── .gitignore          # Git ignore rules
 ├── README.md           # Project documentation
-└── Alternativo/        # Alternative implementations
+└── LICENSE             # License file
 ```
 
 ## 🏗️ Code Architecture
