@@ -57,7 +57,7 @@ Before running this project, ensure you have:
 
 1. **Clone the repository**
    ```bash
-   git clone <your-repository-url>
+   git clone https://github.com/talvanes/chatbot-ia.git
    cd 04-chatbot
    ```
 
@@ -74,7 +74,7 @@ Before running this project, ensure you have:
 
 3. **Install dependencies**
    ```bash
-   pip install streamlit openai python-dotenv
+   pip install -r requirements.txt
    ```
 
 4. **Configure environment variables**
@@ -292,8 +292,8 @@ The application uses optimized parameters for the OpenAI API:
 | Parameter | Value | Purpose |
 |-----------|-------|---------|
 | **model** | `gpt-4o-mini` | Balanced performance and cost-efficiency |
-| **temperature** | `0.7` | Balanced creativity (0=deterministic, 2=very creative) |
-| **max_tokens** | `1000` | Reasonable response length limit |
+| **temperature** | `0.9` | Balanced creativity (0=deterministic, 2=very creative) |
+| **max_tokens** | `2000` | Reasonable response length limit |
 | **system prompt** | Custom | Defines AI assistant personality and behavior |
 
 ### Response Quality
@@ -323,16 +323,16 @@ Contributions are welcome! Please feel free to submit a Pull Request. For major 
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under a customized MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 👨‍💻 Author
 
 **Your Name**
 
-- Portfolio: [yourwebsite.com](#)
-- LinkedIn: [linkedin.com/in/yourprofile](#)
-- GitHub: [@yourusername](#)
-- Email: your.email@example.com
+- Portfolio: [talvanesferreira.com](https://talvanesferreira.com)
+- LinkedIn: [linkedin.com/in/talvanes](https://www.linkedin.com/in/talvanes)
+- GitHub: [@talvanes](https://github.com/talvanes)
+- Email: talvanes@talvanesferreira.com
 
 ## 🙏 Acknowledgments
 
@@ -357,7 +357,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **⭐ Star this repository if you found it helpful!**
 
 Made with ❤️ and Python
-
-[Report Bug](../../issues) · [Request Feature](../../issues) · [Documentation](#)
+by Talvanes Ferreira
 
 </div>
